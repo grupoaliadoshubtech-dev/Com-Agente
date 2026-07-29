@@ -1,8 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/mascarar.py": {
-      "runtime": "python3.12",
+    "api/*.py": {
       "maxDuration": 10
     }
   }
