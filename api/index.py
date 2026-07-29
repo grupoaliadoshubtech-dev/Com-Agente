@@ -32,7 +32,7 @@ from http.server import BaseHTTPRequestHandler
 # CONFIGURAÇÃO — lida uma única vez no cold start
 # ═══════════════════════════════════════════════════════════════════════════════
 
-_API_SECRET:   str = os.environ.get('MAJANI_API_SECRET', '')
+_API_SECRET:   str = os.environ.get('COMAGENTE_API_SECRET', '')
 _SUPABASE_URL: str = os.environ.get('SUPABASE_URL', '').rstrip('/')
 _SUPABASE_KEY: str = os.environ.get('SUPABASE_KEY', '')
 
