@@ -1,0 +1,29 @@
+# ── Ambiente Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Vercel ────────────────────────────────────────────────────────────────────
+.vercel/
+.vercel.env
+
+# ── Variáveis de Ambiente (NUNCA commitar segredos!) ─────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Sistema Operacional ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

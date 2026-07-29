@@ -1,0 +1,9 @@
+# ComAgente Middleware — Python Dependencies
+#
+# Esta função utiliza APENAS a biblioteca padrão do Python (stdlib):
+#   - http.server  → BaseHTTPRequestHandler (runtime Vercel)
+#   - json         → parse/serialize de payload
+#   - re           → engine de Regex para mascaramento PII
+#
+# Nenhuma dependência externa é necessária.
+# Arquivo mantido para compatibilidade com o processo de build da Vercel.
